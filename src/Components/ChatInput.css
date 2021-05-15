@@ -1,0 +1,35 @@
+.chatInput {
+	border-radius: 20px;
+}
+
+.chatInput > form {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.chatInput > form > input {
+	position: fixed;
+	bottom: 30px;
+	width: 50%;
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+.chatInput > form > button {
+	color: white;
+	background-color: var(--slack-color);
+position: fixed;
+	bottom: 30px;
+  right: 0px;
+	width: 15%;
+	border: 1px solid gray;
+	border-radius: 3px;
+	padding: 20px;
+
+}
+
+.chatInput > form > button:hover {
+	background-color: #340e36;
+}
